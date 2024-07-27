@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* 
+    Layout:
+        - Mobile: 375px
+        - Desktop: 1440px
+*/
+
+
+:root{
+    /* Primary */
+    --Purple: hsl(259, 100%, 65%);
+    --LightRed: hsl(0, 100%, 67%);
+
+    /* Neutral */
+    --White: hsl(0, 0%, 100%);
+    --Offwhite: hsl(0, 0%, 94%);
+    --Lightgrey: hsl(0, 0%, 86%);
+    --Smokeygrey: hsl(0, 1%, 44%);
+    --Offblack: hsl(0, 0%, 8%);
+
+    /* Font Weights */
+    --weight400i: 400;
+    --weight700: 700;
+    --weight800i: 800i;
+}
+
+#inputsFlex{
+    padding-left: 5%;
+    display: flex;
+}
+
+#inputsFlex .inputs{
+    width: 25%;
+}
+
+#inputsFlex .inputs input{
+    font-size: 200%;
+    width: 90%;
+    border: 1px var(--Lightgrey) solid;
+    border-radius: 5px;
+    height: 4rem;
+}
+
+#inputsFlex .inputs input::placeholder{
+    font-size: 110%;
+    font-weight: var(--weight700);
+}
+
+.inputs legend{
+    float: none;
+    font-size: 90%;
+    font-weight: var(--weight700);
+}
